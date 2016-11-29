@@ -31,7 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'webapp', #added new app, add each app you create in this project to link it to the head website
+    #'webapp', #added new app, add each app you create in this project to link it to the head website
+    'personal_web',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
