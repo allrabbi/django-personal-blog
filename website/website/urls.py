@@ -20,4 +20,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     #url(r'^webapp/', include('webapp.urls')), #when someone goes to "_yourWebsite__"/web then webapp.url will work for what view should be shown on the opening page
     url(r'^', include('personal_web.urls')), #if there is no link assign to the page, this(^$) indicates home page
+    url(r'^blog/', include('blog.urls')),
 ]
